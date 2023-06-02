@@ -7,31 +7,34 @@ This Python interpreter is in a Anaconda environment, but the environment has no
 Libraries may fail to load.  To activate this environment please see https://conda.io/activation.
 Libraries need to be pre-installed for smooth functioning.
 
-Libraries:
-collections
-numpy </br>
-conllu </br>
+Libraries - 
+pandas </br>
+collections </br>
+pandas </br>
+matplotlib.pyplot </br>
+inltk </br>
+pickle </br>
+re  </br>
+conllu  </br>
 heapq </br>
 
-
 Steps to Run Assignment:
-1. Extract 22111014_Assignment2.zip in your local system{7 zip recommended}. </br>
-2. Open Assingment2.ipynb file in your idle environment. Change the data path according to your file location(second cell). </br>
-3. Run according to below Question instruction and information. </br>
+1. Extract 22111014_Assignment1.zip in your local system. Then extract the tokens file and token_dict file {7 zip recommended}. These file contain tokens and their frequencies and all the further processing will be done after importing them.
+2. Open Assingment1.ipynb file in your idle environment. Change the data path according to your file location(second cell).
+3. Run according to below Question instruction and information.
 
 Additional Information:
 
-Question a: Sentence list is traversed to extract the upos of each word. uni_pos_tag is dictionary key upos as a key and frequency of that upos as its value.
+Question1: I defined function for unicode correction named unicode.To check its accuracy call function unicode with a word {that needs to be tested} as a parameter and it will return unicode_corrected version of that word.
 
-Question b: freq_words_each_pos_tag is a dict which has different pos tags as a key and most freq 50 words corresponding to that pos tag as a value.
+Question2: Don't execute the first cell just after the question2 instead of it just execute the next cell to get the tokens.{as stated in the notebook}
+To test the correctness of syllable function in change the code line for token in tokens to for token in ['The word you want to test'].
 
-Question c: freq_gender , freq_case and freq_number will contain the required Result.
+Question3: Since BPE alogrithm takes too much time that why i have created a pickle file beforehand that contains BPE token. SO instead of running BPE algorithm just run the import pickle cell.
 
-Question d: Triple is a dict that contain three tuple as key and their frequency as a value.
+Question 5: Change the path according to your file Location of conllu files. I are using all three dev, train, test files.
 
-Question e: Head_uni_pos_tags will contain pos tag associated with head words as key and their frequency as value.
-
-Question f and g: Notebook contain all the required comments
+Question 6: Red dotted line shows the Expected Zifian.
 
 
 
