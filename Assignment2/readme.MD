@@ -7,14 +7,14 @@ This Python interpreter is in a Anaconda environment, but the environment has no
 Libraries may fail to load.  To activate this environment please see https://conda.io/activation.
 Libraries need to be pre-installed for smooth functioning.
 
-Libraries:
-collections
-numpy
-conllu 
-heapq
-datasets
-transformers
-seqeval
+Libraries: </br>
+collections </br>
+numpy </br>
+conllu </br>
+heapq </br>
+datasets  </br>
+transformers </br>
+seqeval </br>
 
 Steps to Run Assignment:
 1. Extract 22111014_Assignment2.zip in your local system{7 zip recommended}.
