@@ -1,0 +1,6 @@
+1.For question1 - Execute the file with name Assignment2_22111014_Question1 on jupyter Notebook/Visual Studio Code.
+2.For question2 - Execute the file with name Assignment2_22111014_Question2 on jupyter Notebook/Visual Studio Code.
+ALL the necessary comment are made in the notebook itself.
+Variable Declaration - ALL the required Variables are declared in the cell for each part of section.
+Take reference from readme.
+Use standard command pip install module_name to install the module(if missing any).
